@@ -1,0 +1,40 @@
+{
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontLigatures": true,
+  "editor.wordWrap": "on",
+  "editor.formatOnSave": true,
+  "oneDarkPro.italic": true,
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.colorTheme": "Default Dark+",
+  "vim.commandLineModeKeyBindingsNonRecursive": [],
+  "vim.commandLineModeKeyBindings": [],
+  "vim.digraphs": {},
+  "vim.handleKeys": {
+    "<C-d>": true,
+    "<C-s>": false,
+    "<C-z>": false
+  },
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ], 
+   "vim.normalModeKeyBindings": [
+    {
+      "before": ["j", "k"],
+      "after": ["a"]
+    },
+  ], "vim.normalModeKeyBindings": [
+    {
+      "before": [";", ";"],
+      "after": ["a"]
+    },
+  ], 
+  "vim.leader": "<space>",
+  "editor.lineNumbers": "on"
+  
+
+
+  
+}
