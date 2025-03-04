@@ -30,8 +30,7 @@
       "before": [";", ";"],
       "after": ["a"]
     },
-  ], 
-  ], 
+  ],  
      "vim.visualModeKeyBindings": [
       {
         "before": ["v", "v"],
