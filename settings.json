@@ -31,6 +31,13 @@
       "after": ["a"]
     },
   ], 
+  ], 
+     "vim.visualModeKeyBindings": [
+      {
+        "before": ["v", "v"],
+        "after": ["<esc>"]
+      },
+    ], 
   "vim.leader": "<space>",
   "editor.lineNumbers": "on"
   
