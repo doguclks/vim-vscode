@@ -75,11 +75,6 @@
     "when": "terminalFocus"
   },
   {
-  "key": "space q",
-  "command": "workbench.action.terminal.kill",
-  "when": "terminalFocus"
-  },
-  {
     "command": "workbench.action.previousEditorInGroup",
     "key": "shift-tab",
     "when": "vim.mode == 'Normal' || vim.mode == 'Visual' && (editorTextFocus || !inputFocus) && !terminalFocus"
@@ -97,13 +92,10 @@
   },
   {
     "command": "workbench.action.terminal.toggleTerminal",
-    "key": "space enter",
+    "key": "space t",
     "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)"
   },
-  {
-  "key": "space t",
-  "command": "workbench.action.terminal.new"
-  },
+  
   {
     "command": "editor.action.moveLinesDownAction",
     "key": "shift-j",
